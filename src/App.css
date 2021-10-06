@@ -1,38 +1,21 @@
- .App {
-  text-align: center;
+.card {
+@apply max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.card-heading {
+@apply uppercase tracking-wide text-sm text-indigo-500 font-semibold
+}
+.card-img {
+@apply h-64 w-full object-cover md:w-48
+}
+.card-link {
+@apply block mt-4 text-lg leading-tight font-medium text-gray-800 hover:underline
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.card-p {
+@apply  mt-2 text-gray-500
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card-btn {
+@apply bg-gray-800 px-4 py-2 text-pr-deepWhite rounded-lg mt-2 text-center w-24
 }

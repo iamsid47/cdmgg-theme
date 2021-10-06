@@ -4,57 +4,32 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'primary' : {
-          
+        //this config does not contain regular colors and adjustments like - White color (#fff)
+        //or flex, justify content, grids, etc.
+         //primary
+        'pr' : {
+          'deepBlack' : '#111111',
+          'deepBlack222' : '#222222',
+          'deepWhite' : '#f5f5f5',
+          'offRed' : '#EC3750',
         },
-        'secondary' : {
-
+         //secondary
+        'sec' : {
+          'paleYellow' : '#FC8402',
+          'faintWhite' : '#596197',
+          'runGreen' : '#5CB85C',
+          'darkGrey' : '#E5E5E5'
         },
-        'cdmgg' : {
+      },
 
-        }
-      },
-      width : {
-        'cards' : {
-
-        },
-        'box' : {},
-        'gen' : {}
-      },
-      height : {
-        'h1' : {},
-        'h2' : {},
-        'h3' : {},
-        'h4' : {},
-        'h5' : {},
-        'h6' : {},
-
-      },
-      borderRadius : {
-        'b1' : {},
-        'b2' : {},
-        'b3' : {},
-        'b4' : {},
-      },
-      boxShadow : {
-        'shadow1' : {},
-        'shadow2' : {},
-        'shadow3' : {}
-
-      },
-      cursor : {
-
-      },
       fontSize : {
         'p' : '0.875rem',
         'head' : '2.25rem',
-        'subhead' : '1.5rem '
+        'head2' : '3rem',
+        'subhead' : '1.5rem ',
+        'menu' : '1rem'
 
-      },
-      fontWeight : {
-        'regular' : '400'
-      },
-
+      }
     },
   },
   variants: {
