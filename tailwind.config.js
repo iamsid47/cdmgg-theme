@@ -27,7 +27,7 @@ module.exports = {
         'head' : '2.25rem',
         'head2' : '3rem',
         'subhead' : '1.5rem ',
-        'menu' : '1rem'
+        'menu' : '0.75rem'
 
       }
     },
