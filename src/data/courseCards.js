@@ -7,6 +7,7 @@ export default [
         imgURL: "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80",
         imgAlt: "California 1",
         length: "4 Hours 53 Minutes",
+        level: "Beginner",
     },
     {
         courseName: "CSS", 
@@ -15,6 +16,7 @@ export default [
         imgURL: "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80",
         imgAlt: "California 1",
         length: "3 Hours 18 Minutes",
+        level: "Intermediate",
     },
     {
         courseName: "JavaScript", 
@@ -23,6 +25,7 @@ export default [
         imgURL: "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80",
         imgAlt: "California 1",
         length: " 5 Hours 39 Minutes",
+        level: "Advanced",
     },
 
 ]
